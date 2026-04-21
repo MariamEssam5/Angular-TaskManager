@@ -1,0 +1,15 @@
+<div class="carousel">
+  
+  <button class="arrow leftArrow" (click)="goPrev()">◀️</button>
+
+  <img [src]="images[curIdx]" alt="slider" class="sliderImage">
+
+  <button class="arrow rightArrow" (click)="goNext()">▶️</button>
+
+  <div class="dots">
+    <span class="dot" (click)="showImg(0)" [class.active]="curIdx === 0"></span>
+    <span class="dot" (click)="showImg(1)" [class.active]="curIdx === 1"></span>
+    <span class="dot" (click)="showImg(2)" [class.active]="curIdx === 2"></span>
+  </div>
+
+</div>

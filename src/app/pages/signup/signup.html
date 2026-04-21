@@ -1,0 +1,41 @@
+<div class="row justify-content-center mt-5">
+  <div class="col-md-6">
+    <div class="card shadow-sm p-4">
+      <h3 class="text-center mb-4">Sign Up </h3>
+      
+      <form [formGroup]="SignupForm" (ngSubmit)="onSubmit()">
+        
+        <div class="mb-3">
+          <label class="form-label">Username</label>
+          <input type="text" class="form-control" formControlName="username">
+          
+          @if (SignupForm.get('username')?.invalid && SignupForm.get('username')?.dirty) {
+            <small class="text-danger">Valid username is required.</small>
+          }
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" formControlName="email">
+          
+          @if (SignupForm.get('email')?.invalid && SignupForm.get('email')?.dirty) {
+            <small class="text-danger">Please enter a valid email.</small>
+          }
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Password</label>
+          <input type="password" class="form-control" formControlName="password">
+          
+          @if (SignupForm.get('password')?.invalid && SignupForm.get('password')?.dirty) {
+            <small class="text-danger">Password must be at least 6 characters.</small>
+          }
+        </div>
+
+        <button type="submit" class="btn btn-success w-100" [disabled]="SignupForm.invalid">
+          Create Account
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
