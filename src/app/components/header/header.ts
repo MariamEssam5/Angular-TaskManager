@@ -9,7 +9,6 @@ import { Router, RouterLink, RouterLinkActive } from '@angular/router';
 })
 export class Header {
   router = inject(Router);
-  //de function b ttcheck lw fe user logged in wla la2
   get isLoggedIn(){
     return localStorage.getItem('username')!==null;
   }

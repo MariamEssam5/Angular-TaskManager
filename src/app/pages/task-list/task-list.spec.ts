@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TaskList } from './task-list';
+import { inject } from 'vitest';
 
 describe('TaskList', () => {
   let component: TaskList;

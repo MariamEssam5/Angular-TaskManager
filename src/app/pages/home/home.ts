@@ -11,9 +11,9 @@ export class Home {
   {
   }
   images:string[]=[
-    "5.png",
-    "4.png",
-    "10.png"
+    "note1.jpg",
+    "note2.jpg",
+    "note3.jpg"
   ]
   timerId:any;
   curIdx:number=0;

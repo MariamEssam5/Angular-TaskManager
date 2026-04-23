@@ -1,0 +1,52 @@
+{
+  "tasks": [
+    {
+      "title": "angular studying",
+      "dueDate": "2026-04-28",
+      "priority": "Medium",
+      "category": "Study",
+      "isDone": true,
+      "userName": "Mariam Essam",
+      "id": "b6EUmdUzp3c"
+    },
+    {
+      "title": "Angular Project",
+      "dueDate": "2026-05-05",
+      "priority": "High",
+      "category": "Study",
+      "isDone": false,
+      "userName": "Mariam Essam",
+      "id": "e14bMsXH-6k"
+    },
+    {
+      "title": "Going to the gym",
+      "dueDate": "2026-04-24",
+      "priority": "Low",
+      "category": "Personal",
+      "isDone": false,
+      "userName": "Mariam Essam",
+      "id": "9KfMNQxoWyQ"
+    }
+  ],
+  "users": [
+    {
+      "username": "Mariam Essam",
+      "email": "mmm@gmail.com",
+      "password": "123456",
+      "id": "zUq_EnkZ1aU"
+    },
+    {
+      "username": "Mariam Essam2",
+      "email": "mariam@gmail.com",
+      "password": "123456",
+      "id": "aAZ08yfjbF8"
+    },
+    {
+      "username": "mmm",
+      "email": "mariaaaaam@gmail.com",
+      "password": "123456",
+      "id": "sGqrEhagrsY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
