@@ -43,3 +43,9 @@ A modern, high-performance Task Management Application built with **Angular 18**
 To get a local copy up and running, follow these simple steps:
 
 **1. Clone the repository**
+
+
+https://github.com/user-attachments/assets/d0728c41-6aa4-4da2-b782-a9e604ae41e9
+
+
+
