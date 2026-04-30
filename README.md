@@ -43,9 +43,22 @@ A modern, high-performance Task Management Application built with **Angular 18**
 To get a local copy up and running, follow these simple steps:
 
 **1. Clone the repository**
+git clone https://github.com/MariamEssam5/Angular-TaskManager.git
+لهف ؤ
 
+**2. Install dependencies**
 
-https://github.com/user-attachments/assets/d0728c41-6aa4-4da2-b782-a9e604ae41e9
+Bash
+npm install
 
+**3. Start the Mock Server**
+Open a terminal and run the following command to start json-server:
+Bash
+npx json-server --watch db.json
+
+**4. Run the Angular Application**
+Open a new terminal window and run:
+Bash
+ng serve
 
 
